@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Sharolyn Hurley
+product_information:
+  ministry: WLRS
+  product_acronym: CDOGS
+  product_description: How to use the CDOGS api
+  product_name: Common Document Generation Service
+  program_area: Common Service Showcase team
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift

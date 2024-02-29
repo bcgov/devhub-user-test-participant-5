@@ -1,0 +1,13 @@
+site_name: "Document Generation API developer's guide"
+site_description: "How to use the CDOGS api"
+docs_dir: "docs"
+repo_url:  ""
+edit_uri: edit/main/docs/
+plugins:
+    - techdocs-core
+    - ezlinks
+markdown_extensions:
+    - markdown_inline_mermaid
+    - md_in_html
+    -   mkpatcher:
+            location: patcher.py

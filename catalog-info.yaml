@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: document-generation-api-developers-guide
+  title: Document Generation API developer's guide
+  description: How to use the CDOGS api
+  annotations:
+    github.com/project-slug: bcgov/devhub-user-test-participant-5
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: WLRS
+    bcgovpubcode.gov.bc.ca/program_area: Common Service Showcase team
+    bcgovpubcode.gov.bc.ca/product_name: Common Document Generation Service
+    bcgovpubcode.gov.bc.ca/product_acronym: CDOGS
+    bcgovpubcode.gov.bc.ca/product_owner: Sharolyn Hurley
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/common-services-developers
